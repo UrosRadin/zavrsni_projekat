@@ -1,5 +1,5 @@
 <?php
-    include "db.php";
+    include ('db.php');
 ?>
 <main role="main" class="container">
     <div class="row">
