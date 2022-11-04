@@ -1,6 +1,6 @@
 <?php
-    include "db.php";
-    include "header.php";
+    include ('db.php');
+    include ('header.php');
 
 ?>
 <!doctype html>
@@ -57,7 +57,7 @@
                     </nav>
                     
                 </div>
-                <?php include "sidebar.php";?>
+                <?php include ('sidebar.php');?>
             </div>
 
     </main>
