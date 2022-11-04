@@ -1,5 +1,6 @@
 <?php
     include ('db.php');
+    include ('comments.php');
 ?>
 <main role="main" class="container">
     <div class="row">
