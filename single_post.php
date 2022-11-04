@@ -49,16 +49,6 @@
         <p>
             <?php echo($singlePost['Body']) ?>        
         </p>
-        <ul>
-            <?php $comments = $dbManagement->getCommentsByPostId($_GET['post_id']); ?>
-            <?php foreach ($comments as $comment) { ?>
-                <li>
-                    <h6><b><?php echo "$comment[Author]"; ?></b></h6>
-                    <h5><?php echo "$comment[Text]"; ?></h5>
-            </li>
-            <hr>
-            <?php } ?>
-            </ul>
                     </div>
                     
                     <nav class="blog-pagination">
