@@ -1,4 +1,4 @@
-<?php 
+<?php include ('db.php');
  function getCommentsByPostId($id) {
     $sql = "SELECT Author, Text FROM comments WHERE comments.posts_id = $id";
     $statement = $this->connection->prepare($sql);

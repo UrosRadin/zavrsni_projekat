@@ -1,7 +1,7 @@
 <?php
     $servername = "127.0.0.1";
-    $username = "mysql-94484-0.cloudclusters.net";
-    $password = "pqXib2LB";
+    $username = "root";
+    $password = "password";
     $dbname = "blog";
 
     try {
